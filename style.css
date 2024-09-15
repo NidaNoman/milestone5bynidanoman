@@ -1,0 +1,92 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color:white;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #e6e6ff;
+    border-radius: 8px;
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid #a64dff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e6e6ff ;
+    
+}
+legend{
+    font-weight: bold;
+    font-style: italic;
+    
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+
+
+}
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgrey;
+    margin: auto;
+    border: 2px solid blueviolet;
+    
+
+}
+#resume-display{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #e6e6ff;
+    
+    
+
+}
+#resume-display h2{
+    color: purple;
+    text-align: center;
+    font-style: oblique;
+    text-decoration: underline;
+    
+};
+button{
+    width: 100%;
+    margin-top: 10px;
+    margin: auto;
+    padding: 10px;
+}
+#shareable-link-container{
+    font-style: oblique;
+    text-align: center
+};
